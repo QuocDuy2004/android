@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow Layer -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#33000000" /> <!-- Độ mờ của shadow -->
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+    <!-- Main Layer -->
+    <item android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#fff" />
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+</layer-list>
